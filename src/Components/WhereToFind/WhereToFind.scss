@@ -1,0 +1,60 @@
+.where-to-find {
+  margin-top: 150px;
+  .badge {
+    margin: 0 auto;
+    font-weight: 700;
+  }
+
+  .where-to-find__title {
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .where-to-find__content {
+    margin-top: 80px;
+    display: flex;
+    gap: 24px;
+    .where-to-find__address {
+      width: 25%;
+      background-color: rgba(#d5621d, 0.1);
+      border: 2px solid #d5621d;
+      border-radius: 5px;
+      color: white;
+      padding: 50px;
+
+      .where-to-find__breakline {
+        margin-top: 35px;
+        opacity: 0.5;
+      }
+
+      .where-to-find__label {
+        &:not(:first-child) {
+          display: block;
+          margin-top: 35px;
+        }
+      }
+
+      .where-to-find__text {
+        display: block;
+        margin-top: 20px;
+      }
+    }
+    .where-to-find__map {
+      border: 1px solid #d5621d;
+      border-radius: 5px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .where-to-find__content {
+      flex-wrap: wrap;
+      .where-to-find__address {
+        width: 100%;
+      }
+      .where-to-find__map {
+        width: 100%;
+      }
+    }
+  }
+}

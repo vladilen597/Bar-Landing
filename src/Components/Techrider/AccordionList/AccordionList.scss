@@ -1,0 +1,22 @@
+.accordion-list {
+  width: 100%;
+  .accordion-list__item {
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+  .accordion-list__accordion {
+    background-color: #d5621d;
+    color: white;
+  }
+
+  .accordion-list__details {
+    list-style-type: disc;
+    margin-left: 16px;
+    .accordion-list__details-item {
+      &:not(:first-child) {
+        padding-top: 16px;
+      }
+    }
+  }
+}

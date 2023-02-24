@@ -1,0 +1,21 @@
+body {
+  background-color: #210e09;
+}
+
+.app {
+  max-width: 1305px;
+  margin: 0 auto;
+  padding: 0 24px;
+  font-family: 'Stolzl';
+  font-weight: 300;
+
+  .header {
+    margin-top: 30px;
+  }
+
+  .app__footer-splitter {
+    margin: 0;
+    margin-top: 100px;
+    opacity: 0.5;
+  }
+}

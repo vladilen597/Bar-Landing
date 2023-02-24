@@ -1,0 +1,14 @@
+.tech-links {
+  text-align: center;
+  .tech-links__cards {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+  }
+
+  @media (max-width: 1024px) {
+    .tech-links__cards {
+      justify-content: center;
+    }
+  }
+}

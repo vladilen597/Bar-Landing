@@ -1,0 +1,21 @@
+.cafe-events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 150px;
+  gap: 24px;
+
+  .cafe-events__image {
+    height: min-content;
+    display: block;
+    height: 490px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    .cafe-events__image {
+      height: auto;
+    }
+  }
+}

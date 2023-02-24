@@ -1,0 +1,25 @@
+.techrider {
+  max-width: 1076px;
+  margin: 150px auto 0;
+  .badge {
+    margin: 0 auto;
+    font-weight: 700;
+  }
+  .techrider__title {
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .techrider__content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 134px;
+  }
+
+  @media (max-width: 1024px) {
+    .techrider__content {
+      flex-direction: column;
+    }
+  }
+}

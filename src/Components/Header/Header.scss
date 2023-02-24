@@ -1,0 +1,40 @@
+.MuiDrawer-paperAnchorRight {
+  background-color: #5c2e12 !important;
+  padding: 24px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header__burger-button {
+    display: none;
+    background: none;
+    border: 2px solid #d5621d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+    .header__burger-icon {
+      font-size: 30px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .navbar {
+      display: none;
+    }
+
+    .button {
+      display: none;
+    }
+
+    .header__burger-button {
+      display: block;
+    }
+  }
+}

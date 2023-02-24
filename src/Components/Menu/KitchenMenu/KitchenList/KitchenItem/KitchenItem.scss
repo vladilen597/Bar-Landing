@@ -1,0 +1,30 @@
+.kitchen-item {
+  display: flex;
+  gap: 25px;
+  .kitchen-item__image {
+    width: 110px;
+    height: 110px;
+  }
+  .kitchen-item__title-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .kitchen-item__price {
+      padding: 10px 20px;
+      border: 2px solid #d5621d;
+      width: fit-content;
+      border-radius: 5px;
+      color: white;
+      font-weight: 700;
+    }
+  }
+  .kitchen-item__size {
+    color: #d5621d;
+    font-weight: 500;
+  }
+  .kitchen-item__description {
+    color: white;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+}

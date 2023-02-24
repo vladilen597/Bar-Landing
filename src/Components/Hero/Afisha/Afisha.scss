@@ -1,0 +1,35 @@
+.afisha {
+  width: 100%;
+  .afisha__pages {
+    display: flex;
+    .afisha__page-button {
+      width: 50%;
+      padding: 12px;
+      border-radius: 5px 5px 0 0;
+      border: none;
+      cursor: pointer;
+
+      background-color: rgba(#d5621d, 0.05);
+      &.afisha__page-button--active {
+        background-color: rgba(#d5621d, 0.1);
+      }
+    }
+  }
+  .afisha__content {
+    background-color: rgba(#d5621d, 0.1);
+    padding-top: 40px;
+    height: calc(100% - 85px);
+    display: grid;
+    justify-content: center;
+    gap: 26px;
+    grid-template-columns: repeat(2, 160px);
+  }
+
+  @media (max-width: 1300px) {
+    width: fit-content;
+    margin: 0 auto;
+    .afisha__content {
+      padding: 20px;
+    }
+  }
+}

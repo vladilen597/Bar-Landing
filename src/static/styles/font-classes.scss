@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Stolzl';
+  font-weight: 400;
+  src: url('../fonts/stolzl/stolzl_regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  font-weight: 300;
+  src: url('../fonts/stolzl/stolzl_light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  font-weight: 700;
+  src: url('../fonts/stolzl/stolzl_bold.otf') format('opentype');
+}
+
+.button {
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Stolzl';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.h2-title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: white;
+}
+
+.title1 {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.title2 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.label1 {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.label2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 5%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.label3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 5%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.text1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 5%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.text2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 5%;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 2px solid #d5621d;
+  transition: background-color 200ms;
+
+  &.button--filled {
+    background-color: #d5621d;
+  }
+
+  &:hover {
+    background-color: #d5621d;
+  }
+}
