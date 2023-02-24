@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Bar-Landing/static/css/main.300bac20.css",
+    "main.js": "/Bar-Landing/static/js/main.366b85d8.js",
+    "static/media/afisha.png": "/Bar-Landing/static/media/afisha.421054e1ef41ed461bac.png",
+    "static/media/map.png": "/Bar-Landing/static/media/map.2136b0087360e1028e20.png",
+    "static/media/event-cover.png": "/Bar-Landing/static/media/event-cover.54ac4a7ed13de82b31e3.png",
+    "static/media/logo.svg": "/Bar-Landing/static/media/logo.a5920d2d77938b9ec48769da36528f36.svg",
+    "static/media/profile1.png": "/Bar-Landing/static/media/profile1.c985bd0057baf0fecb65.png",
+    "static/media/profile2.png": "/Bar-Landing/static/media/profile2.f534a418b51ee371db86.png",
+    "static/media/stolzl_regular.otf": "/Bar-Landing/static/media/stolzl_regular.9603d48be34f3721c9c6.otf",
+    "static/media/stolzl_light.otf": "/Bar-Landing/static/media/stolzl_light.1e36ec5d20b6eec6aa2e.otf",
+    "static/media/stolzl_bold.otf": "/Bar-Landing/static/media/stolzl_bold.e7dbff6869476c4643de.otf",
+    "static/media/poster4.png": "/Bar-Landing/static/media/poster4.fb58eb177c934404ffa9.png",
+    "static/media/poster1.png": "/Bar-Landing/static/media/poster1.cf133fd36ea914681976.png",
+    "static/media/dish5.png": "/Bar-Landing/static/media/dish5.12be55215a61d8920ecf.png",
+    "static/media/dish2.png": "/Bar-Landing/static/media/dish2.8c568711ff7b780611a7.png",
+    "static/media/dish8.png": "/Bar-Landing/static/media/dish8.83e6bd89f4bc36ef2ca6.png",
+    "static/media/dish4.png": "/Bar-Landing/static/media/dish4.8753fc45341d3bb51d0b.png",
+    "static/media/poster3.png": "/Bar-Landing/static/media/poster3.71950cf4f9a8241783b2.png",
+    "static/media/dish7.png": "/Bar-Landing/static/media/dish7.0ec47163b1fe8ac51725.png",
+    "static/media/dish1.png": "/Bar-Landing/static/media/dish1.8293d1ae9fc38c9f21d2.png",
+    "static/media/poster2.png": "/Bar-Landing/static/media/poster2.820c1e8de33280c418bb.png",
+    "static/media/dish3.png": "/Bar-Landing/static/media/dish3.7fb801f08d4462aefe6f.png",
+    "static/media/dish6.png": "/Bar-Landing/static/media/dish6.46869e84f4c84bc03efd.png",
+    "static/media/vk-icon.svg": "/Bar-Landing/static/media/vk-icon.c6a06efae52c8087141874389c74e71f.svg",
+    "static/media/arrow.svg": "/Bar-Landing/static/media/arrow.1cb97d05ba0774e0454a66a8bf60d8cc.svg",
+    "index.html": "/Bar-Landing/index.html",
+    "static/media/telegram-icon.svg": "/Bar-Landing/static/media/telegram-icon.bda633e66705bd798c53db102605177e.svg",
+    "main.300bac20.css.map": "/Bar-Landing/static/css/main.300bac20.css.map",
+    "main.366b85d8.js.map": "/Bar-Landing/static/js/main.366b85d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.300bac20.css",
+    "static/js/main.366b85d8.js"
+  ]
+}
